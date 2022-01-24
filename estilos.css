@@ -1,0 +1,83 @@
+@font-face {font-family: moderna; src: url(fuentes/moderna.ttf)}
+
+body{
+	background: #f6f6f6;
+}
+
+*{ /*margenes generales del documento*/
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.conteiner{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: all; /*alinea en el eje principal vertical*/
+	align-items: center;/*alinea en el eje secundario horizintal*/
+	background: white;
+	border-radius: 30px;
+	text-align: center;
+	margin: 1em auto;
+	width: 350px;
+	max-width: 350px;
+	min-width: 350px;
+	box-shadow: -1px 1px 5px 1px rgb(152 163 179 / 50%);
+}
+
+h1{
+	font-family: moderna;
+	color: orange;
+	font-size: 40px;
+	text-align: center;
+	width: 90%;
+	margin-top: 5%;
+}
+ 
+/*texto queremos que sepas..*/
+.texto-principal{
+	color: #435282;
+	text-align: auto;
+	margin-top: 30px;
+	font-family: sans-serif;
+}
+
+.texto-principal > h3 {
+	font-family: moderna;
+}
+
+.texto-principal > p{
+	font-family: segoe ui;
+}
+
+/*redes sociales*/
+.redes-sociales{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5px;
+
+
+}
+
+.redes-sociales ul li{
+	display: inline-block;
+	margin: 0 5px;
+	margin-top: 30px;
+}
+
+/*somo la unica comunidad..*/
+.final{
+	font-family: moderna;
+	display: flex;
+	text-align: center;
+	margin-top: 10px;
+	color: #435282;
+	
+}
+
+
+	
+
+
+
+
